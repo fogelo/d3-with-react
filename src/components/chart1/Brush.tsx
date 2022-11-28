@@ -89,7 +89,7 @@ const Brush = ( props : IBrushProps ) => {
         // @ts-ignore
         .call(yAxisGenerator)
 
-  }, [props, brush])
+  }, [props])
 
   const memoizedUpdateCallback = useCallback(() => {
     d3.selectAll('#x-axis-brush').selectAll('*').remove()

@@ -4,7 +4,7 @@ import { Types } from './types'
 import ChartHelper from "./AreaChartHelper"
 // TODO EE: Update Chart, ChartHelper to actual component name & helper
 // @ts-ignore
-import useWindowDimensions from "../hooks/WindowDimensions";
+import useWindowDimensions from "./hooks/WindowDimensions";
 import Brush from "./Brush";
 
 const ChartWidget = () => {
