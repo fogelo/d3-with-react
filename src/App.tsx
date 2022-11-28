@@ -8,8 +8,8 @@ function App() {
     return (
         <div className="App">
             <header className="App-header">
-                {/*<ChartWidget1/>*/}
-                <ChartWidget2/>
+                <ChartWidget1/>
+                {/*<ChartWidget2/>*/}
             </header>
         </div>
     );
